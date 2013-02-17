@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context=".Asteroides" 
+    android:background="@drawable/asteroides">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/menu_name" 
+        android:textColor="#0000FF"
+        android:textSize="40sp"   
+        style="@style/TextoAsteroides"/>
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_button_play"   
+        style="@style/TextoAsteroides.Botones"/>
+
+    <Button
+        android:id="@+id/button_setting"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarPreferencias"
+        android:text="@string/menu_button_settings" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_button_about"  
+        style="@style/TextoAsteroides.Botones" />
+        <Button
+        android:id="@+id/button_scores"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarPuntuaciones"
+        android:text="@string/menu_button_scores" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_button_exit"  
+        style="@style/TextoAsteroides.Botones" />
+
+</LinearLayout>

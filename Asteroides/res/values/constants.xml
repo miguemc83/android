@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_asteroides">5</integer>
+    <bool name="misiles_ilimitados">true</bool>
+</resources>
