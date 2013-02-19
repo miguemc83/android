@@ -58,14 +58,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/menu_button_about" 
         		style="@style/TextoAsteroides.Botones"  />
-
+			<Button
+                android:id="@+id/button_scores"
+                style="@style/TextoAsteroides.Botones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarPuntuaciones"
+                android:text="@string/menu_button_scores" />
+        </TableRow>
+        <TableRow >
             <Button
                 android:id="@+id/button_exit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/menu_button_exit"  
-        		style="@style/TextoAsteroides.Botones" />
-
+        		style="@style/TextoAsteroides.Botones" />            
         </TableRow>
     </TableLayout>
 
