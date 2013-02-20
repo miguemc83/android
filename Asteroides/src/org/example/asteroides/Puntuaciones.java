@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 /**
- * @author migue
+ * @author Miguel Angel Marin
  * 
  */
 public class Puntuaciones extends ListActivity {

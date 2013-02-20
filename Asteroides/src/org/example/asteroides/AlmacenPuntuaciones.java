@@ -3,7 +3,7 @@ package org.example.asteroides;
 import java.util.Vector;
 
 /**
- * @author migue
+ * @author Miguel Angel Marin
  *
  */
 public interface AlmacenPuntuaciones {

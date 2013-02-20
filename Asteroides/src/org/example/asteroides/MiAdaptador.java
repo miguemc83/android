@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * @author migue
+ * @author Miguel Angel Marin
  *
  */
 public class MiAdaptador extends BaseAdapter {

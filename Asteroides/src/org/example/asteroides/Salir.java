@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  * Activity Salir
  * 
- * @author migue
+ * @author Miguel Angel Marin
  * 
  */
 public class Salir extends Activity {

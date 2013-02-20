@@ -3,6 +3,11 @@ package org.example.asteroides;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
+/**
+ * 
+ * @author Miguel Angel Marin
+ *
+ */
 public class Preferencias extends PreferenceActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

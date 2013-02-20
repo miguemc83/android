@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  * Activity AcercaDe
  * 
- * @author migue
+ * @author Miguel Angel Marin
  * 
  */
 public class AcercaDe extends Activity {

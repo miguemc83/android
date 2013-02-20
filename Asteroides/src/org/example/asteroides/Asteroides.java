@@ -10,6 +10,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * 
+ * @author Miguel Angel Marin
+ *
+ */
 public class Asteroides extends Activity {
 
 	private Button bAcercaDe;
