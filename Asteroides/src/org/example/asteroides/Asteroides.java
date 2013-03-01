@@ -21,6 +21,7 @@ public class Asteroides extends Activity {
 	private Button bSalir;
 	private Button bPreferencias;
 	private Button bPuntuaciones;
+	private Button bJugar;
 
 	public static AlmacenPuntuaciones almacenPuntuaciones = new AlmacenPuntuacionesArray();
 
@@ -56,6 +57,13 @@ public class Asteroides extends Activity {
 				lanzarPuntuaciones(view);
 			}
 		});
+		
+		bJugar = (Button) findViewById(R.id.button_play);
+		bJugar.setOnClickListener(new OnClickListener() {
+			public void onClick(View view) {
+				lanzarJuego(view);
+			}
+		});
 	}
 
 	public void lanzarAcercaDe(View view) {
@@ -71,6 +79,11 @@ public class Asteroides extends Activity {
 		Intent i = new Intent(this, Preferencias.class);
 		startActivity(i);
 	}
+	
+	public void lanzarJuego(View view) {
+		Intent i = new Intent(this, Juego.class);
+		startActivity(i);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -78,7 +91,7 @@ public class Asteroides extends Activity {
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu, menu);
 		return true;
-		/** true -> el menœ ya est‡ visible */
+		/** true -> el menï¿½ ya estï¿½ visible */
 	}
 
 	@Override

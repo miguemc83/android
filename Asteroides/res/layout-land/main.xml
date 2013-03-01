@@ -34,6 +34,7 @@
                 style="@style/TextoAsteroides.Botones"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="lanzarJuego"
                 android:text="@string/menu_button_play" />
 
             <Button

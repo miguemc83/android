@@ -29,7 +29,7 @@ public class Puntuaciones extends ListActivity {
 		Object o = getListAdapter().getItem(position);
 		Toast.makeText(
 				this,
-				"Selección: " + Integer.toString(position) + " - "
+				"Selecci√≥n: " + Integer.toString(position) + " - "
 						+ o.toString(), Toast.LENGTH_LONG).show();
 	}
 
